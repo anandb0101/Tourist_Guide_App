@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+
+    <SearchView
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+       />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="50dp"
+            android:hint="Trending"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_bright"
+            />
+
+
+
+
+
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/agra" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/delhi"
+        android:text="Delhi"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Agra"
+        android:layout_marginTop="240dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="New Delhi"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="210dp"/>
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="290dp"
+        app:srcCompat="@drawable/jaipur" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="220dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="290dp"
+        app:srcCompat="@drawable/Hydrabad" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="470dp"
+        app:srcCompat="@drawable/udaipur" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:text="Jaipur" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="420dp"
+        android:text="hydrabad" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="605dp"
+        android:text="udaipur" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="470dp"
+        app:srcCompat="@drawable/kasmir" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="605dp"
+        android:text="kasmir" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="650dp"
+        app:srcCompat="@mipmap/profile" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="105dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="650dp"
+        app:srcCompat="@mipmap/setting_foreground" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="105dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="650dp"
+        app:srcCompat="@mipmap/share_round" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="105dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="650dp"
+        app:srcCompat="@mipmap/rating_round" />
+
+
+</RelativeLayout>
+
+
+
